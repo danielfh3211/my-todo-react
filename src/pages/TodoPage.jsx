@@ -143,13 +143,13 @@ function TodoPage() {
   });
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4 relative">
+      <div className="min-h-screen bg-gray-100 flex items-start sm:items-center justify-center py-6 sm:p-4 relative">
       <div
-        className={`w-full max-w-md bg-white shadow-lg rounded-2xl p-8 transition-all duration-200 ${
+          className={`w-full max-w-sm sm:max-w-md lg:max-w-lg bg-white shadow-xl rounded-2xl p-6 sm:p-8 transition-all duration-200 ${
           deleteConfirmId ? "blur-sm pointer-events-none select-none" : ""
         }`}
       >
-        <h1 className="text-3xl font-bold text-center mb-8 flex items-center justify-center gap-2">
+        <h1 className="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-8 flex items-center justify-center gap-2">
           <FaList className="text-black" /> Todo App
         </h1>
         <TaskForm input={input} setInput={setInput} addTask={addTask} />
