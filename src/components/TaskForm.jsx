@@ -2,7 +2,7 @@ import { FaPlus } from "react-icons/fa";
 
 function TaskForm({ input, setInput, addTask }) {
   return (
-    <form onSubmit={addTask} className="flex gap-3 mb-6 w-full px-4 sm:px-0">
+    <form onSubmit={addTask} className="flex gap-3 mb-6 w-full px-0">
       <input
         type="text"
         value={input}

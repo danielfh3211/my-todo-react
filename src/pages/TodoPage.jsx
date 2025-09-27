@@ -143,7 +143,7 @@ function TodoPage() {
   });
 
   return (
-      <div className="min-h-screen bg-gray-100 flex items-start sm:items-center justify-center py-4 px-4 sm:p-4 relative">
+      <div className="min-h-screen bg-gray-100 flex items-start sm:items-center justify-center py-4 px-4 relative">
       <div
           className={`w-full max-w-sm sm:max-w-md lg:max-w-lg bg-white shadow-xl rounded-2xl p-6 sm:p-8 transition-all duration-200 ${
           deleteConfirmId ? "blur-sm pointer-events-none select-none" : ""

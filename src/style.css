@@ -1,1 +1,36 @@
 @import "tailwindcss";
+
+@media (max-width: 448px) { 
+    .swal2-toast.swal2-popup {
+    font-size: 0.85rem !important;   
+    padding: 0.6rem 0.9rem !important;
+    min-width: 0 !important;
+    max-width: 280px !important;     
+    box-sizing: border-box !important;
+    border-radius: 6px !important;   
+    }
+
+    .swal2-container.swal2-top-end,
+    .swal2-container.swal2-top-right {
+    transform: none !important;
+    left: auto !important;
+    right: 12px !important;   
+    top: 12px !important;
+    bottom: auto !important;
+    width: auto !important;
+    max-width: 100% !important;
+    }
+
+    .swal2-toast .swal2-icon,
+    .swal2-toast .swal2-success-ring {
+    width: 2em !important;
+    height: 2em !important;
+    min-width: 0 !important;
+    }
+
+    .swal2-toast .swal2-title,
+    .swal2-toast .swal2-html-container {
+    margin: 0 0.6em !important;
+    font-size: 0.85rem !important;
+    }
+}
